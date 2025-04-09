@@ -1,8 +1,11 @@
 body{
-    width: 100vw;
-    overflow-x: hidden;
-    background:rgb(11, 11, 11);
-    font-family: 'Roboto';
+    background-color: white;
+    background-image:url();
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
 }
 h1{
     color: rgb(242, 242, 244);
@@ -12,37 +15,52 @@ h1{
     z-index: 2;
     font-size:10vw;
 }
+h2{
+    color: rgb(242, 242, 244);
+    position: absolute;
+    top:40%;
+    
+    z-index: 2;
+    font-size:10vw; 
+}
 #Montaña{
     top: 0px;
     width:100vw; 
     left: 0px;
-    position: fixed;
-
+    position:absolute;
+}
+#Montañafria{
+        top: 1000px;
+        width:100vw; 
+        left: 0px;
+        position:absolute;
 }
 #Licras{
     position:absolute;
     z-index: 2;
-    top:600px;
+    top:2000px;
     width:30vw;
+    left:10%;
 }
-#Casco{
+#Ropatermica{
     position:absolute;
     z-index: 2;
-    top:1200px;
-    width:30vw;
+    top:2000px;
+    width:40vw;
+    left:50%;
     
 }
 #Comida{
     position:absolute;
     z-index: 2;
-    top:1800px;
+    top:3800px;
     width:30vw;
     
 }
 #Mapa{
     position:absolute;
     z-index: 2;
-    top:2400px;
+    top:4400px;
     width:30vw;
     
 }
@@ -50,7 +68,7 @@ h1{
     position:absolute;
     z-index: 2;
     top:2px;
-    width:5vw;
+    width:4vw;
 }
 a:link,a:visited,a:hover{
     color: rgb(16, 16, 16);
@@ -65,8 +83,8 @@ a:link,a:visited,a:hover{
     font-size: 20px;
     justify-content:baseline;
     align-items: center;
-    height: 100px;
-    background-color: rgba(253, 250, 250, 0.897);
+    height: 60px;
+    background-color:rgb(255, 255, 255);
     color: white;
     position: fixed;
     z-index: 2;
@@ -87,13 +105,13 @@ a:link,a:visited,a:hover{
 .option-container > div {
     padding-right: 20px;
 }
-.englobaciclismo{
+.ropa{
     position:absolute;
     top:660%;
 }
 .englobamontaña{
     position:absolute;
-    top:670%;
+    top:160%;
 }
 .englobanatacion{
      position:absolute;
