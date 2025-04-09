@@ -25,10 +25,12 @@ h2{
     top:7vw;
     width: 100vw; 
     position:absolute;
+    left:0vw;
 }
 .montañafria{
     width:100vw; 
     position:absolute;
+    left:0vw;
 }
 
 #Comida{
@@ -65,10 +67,10 @@ a:link,a:visited,a:hover{
     justify-content:baseline;
     align-items: center;
     height: 60px;
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     color: white;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 0%;
     left: 0px;
 }
@@ -91,6 +93,7 @@ a:link,a:visited,a:hover{
 .englobamontaña{
     position:absolute;
     top:80vw;
+    left:0vw;
 }
 .englobanatacion{
      position:absolute;
