@@ -24,7 +24,7 @@ h2{
     width: 100vw; 
     position:absolute;
 }
-#Montañafria{
+.montañafria{
     top: 1000vw;
     width: 100vw; 
     position:absolute;
@@ -99,13 +99,11 @@ a:link,a:visited,a:hover{
 .option-container > div {
     padding-right: 20px;
 }
-.ropa{
-    position:absolute;
-    top:660%;
-}
+
+
 .englobamontaña{
     position:absolute;
-    top:160%;
+    top:70vw;
 }
 .englobanatacion{
      position:absolute;
