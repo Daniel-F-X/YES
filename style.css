@@ -1,0 +1,105 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background:rgb(11, 11, 11);
+    font-family: 'Roboto';
+}
+h1{
+    color: rgb(242, 242, 244);
+    position: absolute;
+    top:0.7%;
+    left: 15%;
+    z-index: 2;
+    font-size:10vw;
+}
+#Montaña{
+    top: 0px;
+    width:100vw; 
+    left: 0px;
+    position: fixed;
+
+}
+#Licras{
+    position:absolute;
+    z-index: 2;
+    top:600px;
+    width:30vw;
+}
+#Casco{
+    position:absolute;
+    z-index: 2;
+    top:1200px;
+    width:30vw;
+    
+}
+#Comida{
+    position:absolute;
+    z-index: 2;
+    top:1800px;
+    width:30vw;
+    
+}
+#Mapa{
+    position:absolute;
+    z-index: 2;
+    top:2400px;
+    width:30vw;
+    
+}
+#Logo{
+    position:absolute;
+    z-index: 2;
+    top:2px;
+    width:5vw;
+}
+a:link,a:visited,a:hover{
+    color: rgb(16, 16, 16);
+  } 
+  a:active{
+    color:rgb(234, 207, 4);
+  }
+.tabla_2 {
+    width: 100%;
+    display: flex;
+    font-family: "Roboto";
+    font-size: 20px;
+    justify-content:baseline;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(253, 250, 250, 0.897);
+    color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0px;
+}
+
+.tabla_2 > div {
+    padding-right: 20px;
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-container > div {
+    padding-right: 20px;
+}
+.englobaciclismo{
+    position:absolute;
+    top:660%;
+}
+.englobamontaña{
+    position:absolute;
+    top:670%;
+}
+.englobanatacion{
+     position:absolute;
+     top:680%;
+ }
+.englobaescalada{
+      position: absolute;
+     top:1100%;
+}
