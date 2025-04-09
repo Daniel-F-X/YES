@@ -49,8 +49,8 @@ h2{
 }
 #Logo{
     position:absolute;
-    z-index: 2;
-    top:2px;
+    z-index: 3;
+    top:.5vw;
     width:4vw;
 }
 a:link,a:visited,a:hover{
@@ -60,19 +60,19 @@ a:link,a:visited,a:hover{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
-    width: 100%;
+    width: 100vw;
     display: flex;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 2vw;
     justify-content:baseline;
     align-items: center;
-    height: 60px;
+    height:5vw;
     background-color:white;
     color: white;
     position: fixed;
     z-index: 3;
-    top: 0%;
-    left: 0px;
+    top: 0vw;
+    left: 0vw;
 }
 
 .tabla_2 > div {
