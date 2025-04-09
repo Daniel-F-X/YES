@@ -27,24 +27,10 @@ h2{
     position:absolute;
 }
 .montañafria{
-    width:110vw; 
+    width:100vw; 
     position:absolute;
 }
-#Licras{
-    position:absolute;
-    z-index: 2;
-    top:170vw;
-    width:30vw;
-    left:10vw;
-}
-#Ropatermica{
-    position:absolute;
-    z-index: 2;
-    top:225vw;
-    width:40vw;
-    
-    
-}
+
 #Comida{
     position:absolute;
     z-index: 2;
@@ -117,8 +103,8 @@ a:link,a:visited,a:hover{
 h3{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:143vw;
-    left: 15vw;
+    top:160vw;
+    left: 10vw;
     z-index: 2;
     font-size:10vw; 
 }
@@ -126,18 +112,31 @@ h3{
     position: absolute;
      z-index: 5;
      line-height:2em;
-     top:170vw;
+     top:200vw;
      color:rgb(12, 12, 12);
-     background-color: rgba(192, 195, 197, 0.541);
-     width: 50vw;
-     font-size: 1.2vw;
-     left:45vw;
+     width: 90vw;
+     font-size: 2vw;
+     left:4vw;
+}
+#Licras{
+    position:absolute;
+    z-index: 2;
+    top:165vw;
+    width:30vw;
+    left:55vw;
 }
 h4{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:195vw;
-    left: 15vw;
+    top:250vw;
+    left: 10vw;
     z-index: 2;
     font-size:10vw;
+}
+#Ropatermica{
+    position:absolute;
+    z-index: 2;
+    top:260vw;
+    width:40vw;
+    left: 55vw;
 }
