@@ -27,22 +27,22 @@ h2{
     position:absolute;
 }
 .montañafria{
-    width:100vw; 
+    width:110vw; 
     position:absolute;
 }
 #Licras{
     position:absolute;
     z-index: 2;
-    top:150vw;
+    top:170vw;
     width:30vw;
     left:10vw;
 }
 #Ropatermica{
     position:absolute;
     z-index: 2;
-    top:150vw;
+    top:225vw;
     width:40vw;
-    left:50vw;
+    
     
 }
 #Comida{
@@ -104,7 +104,7 @@ a:link,a:visited,a:hover{
 
 .englobamontaña{
     position:absolute;
-    top:70vw;
+    top:80vw;
 }
 .englobanatacion{
      position:absolute;
@@ -114,13 +114,30 @@ a:link,a:visited,a:hover{
       position: absolute;
      top:1100%;
 }
+h3{
+    color: rgb(233, 229, 13);
+    position: absolute;
+    top:143vw;
+    left: 15vw;
+    z-index: 2;
+    font-size:10vw; 
+}
 #declicras{
     position: absolute;
      z-index: 5;
      line-height:2em;
-     top:180vw;
+     top:170vw;
      color:rgb(12, 12, 12);
      background-color: rgba(192, 195, 197, 0.541);
      width: 50vw;
      font-size: 1.2vw;
+     left:45vw;
+}
+h4{
+    color: rgb(233, 229, 13);
+    position: absolute;
+    top:195vw;
+    left: 15vw;
+    z-index: 2;
+    font-size:10vw;
 }
