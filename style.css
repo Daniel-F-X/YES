@@ -16,17 +16,16 @@ h1{
 h2{
     color: rgb(242, 242, 244);
     position:absolute;
-    top:40vw;
+    top:20vw;
     z-index:2;
     font-size:10vw; 
 }
-#Montaña{
+#montaña{
     width: 100vw; 
     position:absolute;
 }
 .montañafria{
-    top: 1000vw;
-    width: 100vw; 
+    width:100vw; 
     position:absolute;
 }
 #Licras{
