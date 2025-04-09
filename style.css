@@ -33,20 +33,7 @@ h2{
     left:0vw;
 }
 
-#Comida{
-    position:absolute;
-    z-index: 2;
-    top:3800px;
-    width:30vw;
-    
-}
-#Mapa{
-    position:absolute;
-    z-index: 2;
-    top:4400px;
-    width:30vw;
-    
-}
+
 #Logo{
     position:absolute;
     z-index: 3;
@@ -142,4 +129,38 @@ h4{
     top:260vw;
     width:40vw;
     left: 55vw;
+}
+#decropatermica{
+    position: absolute;
+     z-index: 5;
+     line-height:2em;
+     top:290vw;
+     color:rgb(12, 12, 12);
+     width: 90vw;
+     font-size: 2vw;
+     left:4vw;
+}
+#ttres{
+    color: rgb(233, 229, 13);
+    position: absolute;
+    top:310vw;
+    left: 10vw;
+    z-index: 2;
+    font-size:10vw;
+}
+#Comida{
+    position:absolute;
+    z-index: 2;
+    top:320vw;
+    width:30vw;
+    left:45vw;
+    
+}
+#Mapa{
+    position:absolute;
+    z-index: 2;
+    top:320vw;
+    width:30vw;
+    left:70vw;
+    
 }
