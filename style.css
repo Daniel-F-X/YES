@@ -21,14 +21,14 @@ h1{
     font-size:10vw;
 }
 h2{
-    color: rgb(242, 242, 244);
+    color: black;
     position:absolute;
     top:20vw;
     z-index:2;
     font-size:10vw;
     left: 5vw; 
 }
-#montaña{
+.montaña{
     top:15vw;
     width: 100vw; 
     position:absolute;
@@ -45,7 +45,7 @@ h2{
 
 #Logo{
     position:absolute;
-    z-index: 3;
+    z-index: 4;
     top:.0vw;
     width:10vw;
     left: 47vw;
@@ -216,4 +216,43 @@ h4{
      left:4vw;
     
           
+}
+.englobacalzado{
+    position: absolute;
+    top:150vw;
+    width: 100vw;
+}
+#fotocalzado{
+    position:absolute;
+    z-index: 2;
+    top:300vw;
+    width:30vw;
+    left:45vw;
+    
+}
+#fotocalzeta{
+    position:absolute;
+    z-index: 2;
+    top:300vw;
+    width:30vw;
+    left:45vw;
+}
+#Tcalzado{
+    color: rgb(233, 229, 13);
+    position: absolute;
+    top:300vw;
+    left: 10vw;
+    z-index: 2;
+    font-size:10vw;
+}
+
+#deccalzado{
+    position: absolute;
+    z-index: 5;
+    line-height:2em;
+    top:300vw;
+    color:rgb(12, 12, 12);
+    width: 90vw;
+    font-size: 2.5vw;
+    left:4vw;
 }
