@@ -3,10 +3,11 @@
     height: 0vw;
 }
 body{
-    width: 102vw;
+
+    width:100vw;
     overflow-x: hidden;
     background:rgb(254, 252, 252);
-    font-family: 'Roboto'
+    font-family: 'Roboto';
 
 }
 h1{
@@ -30,9 +31,10 @@ h2{
     width: 100vw; 
     position:absolute;
     left:0vw;
+    right:0vw;
 }
 .montañafria{
-    width:102vw; 
+    width:100vw; 
     position:absolute;
     left:0vw;
     right: 0vw;
@@ -47,7 +49,7 @@ h2{
     left: 47vw;
 }
 .tabla_3{
-    width:102vw;
+    width:100vw;
     font-size:3vw;
     height:10vw;
     background-color:white;
@@ -63,7 +65,7 @@ a:link,a:visited,a:hover{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
-    width: 102vw;
+    width: 100vw;
     font-family: "Roboto";
     display: flex;
     font-size:4vw;
@@ -93,7 +95,7 @@ a:link,a:visited,a:hover{
     
 }
 .espacio{
-    width: 102vw;
+    width: 100vw;
     font-family: "Roboto";
     display: flex;
     height:15vw;
@@ -112,17 +114,17 @@ a:link,a:visited,a:hover{
 .englobalicras{
      position:absolute;
      top:90vw;
-     width: 102vw;
+     width: 100vw;
  }
 .englobaropatermica{
     position: absolute;
     top:95vw;
-    width: 102vw;
+    width: 100vw;
 }
 .englobacapaexterna{
     position: absolute;
     top:100vw;
-    width: 102vw;
+    width: 100vw;
 }
 
 h3{
