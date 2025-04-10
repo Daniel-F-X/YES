@@ -51,7 +51,7 @@ h2{
     font-family: "Roboto";
     display: flex;
     font-size:3vw;
-    height:7vw;
+    height:8vw;
     background-color:white;
     color: rgb(243, 235, 235);
     position:fixed;
@@ -66,7 +66,7 @@ a:link,a:visited,a:hover{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
-    width: 100vw;
+    width: 102vw;
     font-family: "Roboto";
     display: flex;
     font-size:3vw;
@@ -95,27 +95,37 @@ a:link,a:visited,a:hover{
     padding-right: 20px;
     
 }
-
+.espacio{
+    width: 102vw;
+    font-family: "Roboto";
+    display: flex;
+    height:15vw;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    z-index: 4;
+    top:156vw;
+    left: 0vw;
+}
 
 .englobamontaña{
     position:absolute;
-    top:160vw;
+    top:171vw;
     left:0vw;
     
 }
 .englobalicras{
      position:absolute;
-     top:75vw;
+     top:90vw;
      width: 100vw;
  }
 .englobaropatermica{
     position: absolute;
-    top:80vw;
+    top:95vw;
     width: 100vw;
 }
 .englobacapaexterna{
     position: absolute;
-    top:85vw;
+    top:100vw;
     width: 100vw;
 }
 
