@@ -120,12 +120,12 @@ a:link,a:visited,a:hover{
  }
 .englobaropatermica{
     position: absolute;
-    top:50vw;
+    top:95vw;
     width: 100vw;
 }
 .englobacapaexterna{
     position: absolute;
-    top:50vw;
+    top:100vw;
     width: 100vw;
 }
 
@@ -158,7 +158,7 @@ h3{
 h4{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:250vw;
+    top: 210vw;
     left: 10vw;
     z-index: 2;
     font-size:10vw;
@@ -166,7 +166,7 @@ h4{
 #Ropatermica{
     position:absolute;
     z-index: 2;
-    top:260vw;
+    top:215vw;
     width:40vw;
     left: 55vw;
 }
@@ -174,7 +174,7 @@ h4{
     position: absolute;
      z-index: 5;
      line-height:2em;
-     top:290vw;
+     top:250vw;
      color:rgb(12, 12, 12);
      width: 80vw;
      font-size: 20px;
@@ -184,7 +184,7 @@ h4{
 #ttres{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:310vw;
+    top:260vw;
     left: 10vw;
     z-index: 2;
     font-size:10vw;
@@ -192,24 +192,24 @@ h4{
 #Pantalon{
     position:absolute;
     z-index: 2;
-    top:320vw;
+    top:265vw;
     width:30vw;
-    left:50vw;
+    left:45vw;
     
 }
 #Playera{
     position:absolute;
     z-index: 2;
-    top:320vw;
+    top:265vw;
     width:30vw;
-    left:70vw;
+    left:65vw;
     
 }
 #decexterana{
     position: absolute;
      z-index: 5;
      line-height:2em;
-     top:350vw;
+     top:300vw;
      color:rgb(12, 12, 12);
      width: 80vw;
      font-size: 20px;
