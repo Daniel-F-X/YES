@@ -42,43 +42,58 @@ h2{
 #Logo{
     position:absolute;
     z-index: 3;
-    top:.5vw;
-    width:4vw;
+    top:.0vw;
+    width:7vw;
+    left: 47vw;
+}
+.tabla_3{
+    width: 100vw;
+    font-family: "Roboto";
+    display: flex;
+    font-size:3vw;
+    height:7vw;
+    background-color:white;
+    color: rgb(243, 235, 235);
+    position:fixed;
+    z-index: 3;
+    top:0vw;
+    left: 0vw;  
 }
 a:link,a:visited,a:hover{
-    color: rgb(16, 16, 16);
+    color: rgb(250, 249, 249);
   } 
   a:active{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
     width: 100vw;
-    display: flex;
     font-family: "Roboto";
-    font-size: 2vw;
-    justify-content:baseline;
-    align-items: center;
+    display: flex;
+    font-size:3vw;
     height:5vw;
-    background-color:white;
-    color: white;
-    position: fixed;
-    z-index: 3;
-    top: 0vw;
+    background-color:rgb(0, 0, 0);
+    color: rgb(243, 235, 235);
+    position:absolute;
+    z-index: 2;
+    top:8vw;
     left: 0vw;
 }
 
 .tabla_2 > div {
-    padding-right: 20px;
+    padding-right:20vw;
+    
 }
 
 .option-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .option-container > div {
     padding-right: 20px;
+    
 }
 
 
@@ -187,7 +202,4 @@ h4{
      width: 90vw;
      font-size: 2vw;
      left:4vw;
-}
-br{
-    top:10vw;
 }
