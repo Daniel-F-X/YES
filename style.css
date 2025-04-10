@@ -12,7 +12,7 @@ body{
 h1{
     color: rgb(242, 242, 244);
     position: absolute;
-    top:10vw;
+    top:26vw;
     left: 15vw;
     z-index: 2;
     font-size:10vw;
@@ -26,13 +26,13 @@ h2{
     left: 5vw; 
 }
 #montaña{
-    top:7vw;
-    width: 101vw; 
+    top:15vw;
+    width: 100vw; 
     position:absolute;
     left:0vw;
 }
 .montañafria{
-    width:101vw; 
+    width:100vw; 
     position:absolute;
     left:0vw;
     right: 0vw;
@@ -43,17 +43,18 @@ h2{
     position:absolute;
     z-index: 3;
     top:.0vw;
-    width:7vw;
+    width:10vw;
     left: 47vw;
 }
 .tabla_3{
     width:100vw;
     font-size:3vw;
-    height:8vw;
+    height:10vw;
     background-color:white;
     position:fixed;
     z-index:3;
-    top:0vw;  
+    top:0vw;
+    left: 0vw;
 }
 a:link,a:visited,a:hover{
     color: rgb(250, 249, 249);
@@ -62,21 +63,21 @@ a:link,a:visited,a:hover{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
-    width: 101vw;
+    width: 100vw;
     font-family: "Roboto";
     display: flex;
     font-size:4vw;
-    height:6vw;
+    height:7vw;
     background-color:rgb(0, 0, 0);
     color: rgb(243, 235, 235);
     position:absolute;
     z-index: 2;
-    top:8vw;
+    top:11vw;
     left: 0vw;
 }
 
 .tabla_2 > div {
-    padding-right:20vw;
+    padding: auto;
     
 }
 
@@ -88,17 +89,16 @@ a:link,a:visited,a:hover{
 }
 
 .option-container > div {
-    padding-right: 20px;
+    padding-right:4vw;
     
 }
 .espacio{
-    width: 101vw;
+    width: 100vw;
     font-family: "Roboto";
     display: flex;
     height:15vw;
     background-color:rgb(0, 0, 0);
-    position:absolute;
-    z-index:2;
+    position: absolute;
     top:156vw;
     left: 0vw;
 }
