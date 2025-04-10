@@ -1,7 +1,5 @@
 ::-webkit-scrollbar{
-    width: 0vw;
-    height: 0vw;
-    background-color: black;
+    scrollbar-width: none;
 }
 body{
 
