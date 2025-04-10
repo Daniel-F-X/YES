@@ -47,17 +47,13 @@ h2{
     left: 47vw;
 }
 .tabla_3{
-    width: 101vw;
-    font-family: "Roboto";
-    display: flex;
+    width:100vw;
     font-size:3vw;
     height:8vw;
     background-color:white;
-    color: rgb(243, 235, 235);
     position:fixed;
-    z-index: 3;
-    top:0vw;
-    left: 0vw;  
+    z-index:3;
+    top:0vw;  
 }
 a:link,a:visited,a:hover{
     color: rgb(250, 249, 249);
