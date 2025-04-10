@@ -47,7 +47,7 @@ h2{
     left: 47vw;
 }
 .tabla_3{
-    width: 100vw;
+    width: 101vw;
     font-family: "Roboto";
     display: flex;
     font-size:3vw;
@@ -66,7 +66,7 @@ a:link,a:visited,a:hover{
     color:rgb(234, 207, 4);
   }
 .tabla_2 {
-    width: 102vw;
+    width: 101vw;
     font-family: "Roboto";
     display: flex;
     font-size:3vw;
@@ -96,7 +96,7 @@ a:link,a:visited,a:hover{
     
 }
 .espacio{
-    width: 102vw;
+    width: 101vw;
     font-family: "Roboto";
     display: flex;
     height:15vw;
