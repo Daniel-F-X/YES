@@ -1,3 +1,7 @@
+::-webkit-scrollbar{
+    width: 0vw;
+    height: 0vw;
+}
 body{
     width: 100vw;
     overflow-x: hidden;
@@ -23,14 +27,15 @@ h2{
 }
 #montaña{
     top:7vw;
-    width: 100vw; 
+    width: 101vw; 
     position:absolute;
     left:0vw;
 }
 .montañafria{
-    width:100vw; 
+    width:101vw; 
     position:absolute;
     left:0vw;
+    right: 0vw;
 }
 
 
@@ -81,6 +86,7 @@ a:link,a:visited,a:hover{
     position:absolute;
     top:160vw;
     left:0vw;
+    
 }
 .englobalicras{
      position:absolute;
