@@ -25,7 +25,7 @@ h1{
     font-size:10vw;
 }
 h2{
-    color: black;
+    color: white;
     position:absolute;
     top:20vw;
     z-index:2;
@@ -143,7 +143,7 @@ h3{
 }
 #declicras{
     position: absolute;
-     z-index: 5;
+     z-index: 2;
      line-height:2em;
      top:200vw;
      color:rgb(12, 12, 12);
@@ -176,7 +176,7 @@ h4{
 }
 #decropatermica{
     position: absolute;
-     z-index: 5;
+     z-index: 2;
      line-height:2em;
      top:250vw;
      color:rgb(12, 12, 12);
@@ -211,7 +211,7 @@ h4{
 }
 #decexterana{
     position: absolute;
-     z-index: 5;
+     z-index: 2;
      line-height:2em;
      top:300vw;
      color:rgb(12, 12, 12);
@@ -229,22 +229,22 @@ h4{
 #fotocalzado{
     position:absolute;
     z-index: 2;
-    top:300vw;
-    width:30vw;
-    left:45vw;
+    top:320vw;
+    width:20vw;
+    left:75vw;
     
 }
 #fotocalzeta{
     position:absolute;
-    z-index: 2;
-    top:300vw;
-    width:30vw;
-    left:45vw;
+    z-index: 1;
+    top:320vw;
+    width:16vw;
+    left:55vw;
 }
 #Tcalzado{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:300vw;
+    top:310vw;
     left: 10vw;
     z-index: 2;
     font-size:10vw;
@@ -252,9 +252,53 @@ h4{
 
 #deccalzado{
     position: absolute;
-    z-index: 5;
+    z-index:2;
     line-height:2em;
-    top:300vw;
+    top:340vw;
+    color:rgb(12, 12, 12);
+    width: 90vw;
+    font-size: 2.5vw;
+    left:4vw;
+}
+.englobaaccesorios{
+    position: absolute;
+    top:180vw;
+    width: 100vw;
+}
+#fotogorra{
+    position:absolute;
+    z-index: 1;
+    top:365vw;
+    width:16vw;
+    left:55vw;
+}
+#fotobuff{
+    position:absolute;
+    z-index: 1;
+    top:385vw;
+    width:16vw;
+    left:80vw;
+}
+#fotolentes{
+    position:absolute;
+    z-index: 1;
+    top:377vw;
+    width:16vw;
+    left:70vw;
+}
+#Taccesorios{
+    color: rgb(233, 229, 13);
+    position: absolute;
+    top:370vw;
+    left: 10vw;
+    z-index: 2;
+    font-size:10vw;
+}
+#descaccesorios{
+    position: absolute;
+    z-index:2;
+    line-height:2em;
+    top:400vw;
     color:rgb(12, 12, 12);
     width: 90vw;
     font-size: 2.5vw;
