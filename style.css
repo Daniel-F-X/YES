@@ -69,8 +69,8 @@ a:link,a:visited,a:hover{
     width: 101vw;
     font-family: "Roboto";
     display: flex;
-    font-size:3vw;
-    height:5vw;
+    font-size:4vw;
+    height:6vw;
     background-color:rgb(0, 0, 0);
     color: rgb(243, 235, 235);
     position:absolute;
@@ -102,7 +102,7 @@ a:link,a:visited,a:hover{
     height:15vw;
     background-color:rgb(0, 0, 0);
     position:absolute;
-    z-index: 4;
+    z-index:2;
     top:156vw;
     left: 0vw;
 }
