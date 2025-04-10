@@ -1,13 +1,16 @@
 ::-webkit-scrollbar{
     scrollbar-width:none;
 }
-body{
 
+body{
+    margin:0vw;
+    padding:0vw;
     width:100vw;
     overflow-x: hidden;
     background:rgb(254, 252, 252);
     font-family: 'Roboto';
 
+    
 }
 h1{
     color: rgb(242, 242, 244);
