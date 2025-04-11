@@ -44,6 +44,10 @@ h2{
     position:absolute;
     left:0vw;
     right: 0vw;
+    transition: .4s ease;
+}
+.montañafria:hover{
+    transform: scale(1.2);
 }
 
 
@@ -285,6 +289,7 @@ h4{
     top:377vw;
     width:16vw;
     left:70vw;
+  
 }
 #Taccesorios{
     color: rgb(233, 229, 13);
