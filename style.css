@@ -23,10 +23,10 @@ h1{
     left: 15vw;
     z-index: 2;
     font-size:10vw;
-    transition: 5s ease;
+    transition: .5s ease;
 }
 h1:hover{
-    transform: scale(1.8);
+    transform: scale(1.2);
 }
 h2{
     color: white;
