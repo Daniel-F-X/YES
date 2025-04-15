@@ -22,7 +22,7 @@ h1{
     top:26vw;
     left: 15vw;
     z-index: 2;
-    font-size:10vw;
+    font-size:clamp(1.8rem, 10vw, 7rem);
     transition: .5s ease;
 }
 h1:hover{
@@ -42,12 +42,17 @@ h2{
     position:absolute;
     left:0vw;
     right:0vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 .montañafria{
     width:100vw; 
     position:absolute;
     left:0vw;
     right: 0vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     
 }
 
@@ -57,7 +62,7 @@ h2{
     position:absolute;
     z-index: 4;
     top:.0vw;
-    width:5rem;
+    width:9vw;
     left: 47vw;
 }
 .tabla_3{
@@ -80,7 +85,7 @@ a:link,a:visited,a:hover{
     width: 100vw;
     font-family: "Roboto";
     display: flex;
-    font-size:4vw;
+    font-size:1.5rem;
     height:7vw;
     background-color:rgb(0, 0, 0);
     color: rgb(243, 235, 235);
@@ -88,6 +93,7 @@ a:link,a:visited,a:hover{
     z-index: 2;
     top:11vw;
     left: 0vw;
+    flex-direction: column;
 }
 
 .tabla_2 > div {
@@ -99,12 +105,14 @@ a:link,a:visited,a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: none;
     
     
 }
 
 .option-container > div {
     padding-right:4vw;
+    margin-right: unset;
     
 }
 .espacio{
@@ -165,6 +173,9 @@ h3{
     top:165vw;
     width:30vw;
     left:55vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 h4{
     color: rgb(233, 229, 13);
@@ -172,7 +183,7 @@ h4{
     top: 210vw;
     left: 10vw;
     z-index: 2;
-    font-size:10vw;
+    font-size:clamp(1.8rem, 10vw, 5rem);
 }
 #Ropatermica{
     position:absolute;
@@ -180,6 +191,9 @@ h4{
     top:215vw;
     width:40vw;
     left: 55vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 #decropatermica{
     position: absolute;
@@ -206,6 +220,9 @@ h4{
     top:265vw;
     width:30vw;
     left:45vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
     
 }
 #Playera{
@@ -214,6 +231,9 @@ h4{
     top:265vw;
     width:30vw;
     left:65vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
     
 }
 #decexterana{
@@ -239,6 +259,9 @@ h4{
     top:320vw;
     width:20vw;
     left:75vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
     
 }
 #fotocalzeta{
@@ -247,6 +270,9 @@ h4{
     top:320vw;
     width:16vw;
     left:55vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 #Tcalzado{
     color: rgb(233, 229, 13);
@@ -264,7 +290,7 @@ h4{
     top:340vw;
     color:rgb(12, 12, 12);
     width: 90vw;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
     left:4vw;
 }
 .englobaaccesorios{
@@ -278,6 +304,9 @@ h4{
     top:365vw;
     width:16vw;
     left:55vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 #fotobuff{
     position:absolute;
@@ -285,6 +314,9 @@ h4{
     top:385vw;
     width:16vw;
     left:80vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
 }
 #fotolentes{
     position:absolute;
@@ -292,6 +324,9 @@ h4{
     top:377vw;
     width:16vw;
     left:70vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
   
 }
 #Taccesorios{
@@ -309,6 +344,6 @@ h4{
     top:400vw;
     color:rgb(12, 12, 12);
     width: 90vw;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
     left:4vw;
 }
