@@ -38,7 +38,7 @@ h2{
 }
 .montaña{
     top:15vw;
-    width: 100vw; 
+    width:100vw; 
     position:absolute;
     left:0vw;
     right:0vw;
@@ -57,7 +57,7 @@ h2{
     position:absolute;
     z-index: 4;
     top:.0vw;
-    width:10vw;
+    width:5rem;
     left: 47vw;
 }
 .tabla_3{
@@ -91,7 +91,7 @@ a:link,a:visited,a:hover{
 }
 
 .tabla_2 > div {
-    padding: auto;
+    padding:auto;
     
 }
 
@@ -99,6 +99,7 @@ a:link,a:visited,a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 
@@ -154,7 +155,7 @@ h3{
      top:200vw;
      color:rgb(12, 12, 12);
      width: 90vw;
-     font-size:2.5vw;
+     font-size:1.5rem;
      left:4vw;
      
 }
@@ -187,7 +188,7 @@ h4{
      top:250vw;
      color:rgb(12, 12, 12);
      width: 90vw;
-     font-size: 2.5vw;
+     font-size:1.5rem;
      left:4vw;
      
 }
@@ -222,7 +223,7 @@ h4{
      top:300vw;
      color:rgb(12, 12, 12);
      width: 90vw;
-     font-size: 2.5vw;
+     font-size:1.5rem;
      left:4vw;
     
           
