@@ -219,7 +219,7 @@ h3{
 }
 }
 
-@media (min-width:475px) {
+@media (min-width:320px) {
     .englobaropatermica{
         background-color:white;
         width: 90vw;
