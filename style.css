@@ -12,6 +12,73 @@ body{
 
     
 }
+header{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h5{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-links a:hover {
+    color: yellow;
+
+}
+.hamburguer{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+@media (mix-width:768px) {
+    nav {
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        flex-direction: column;
+        text-aling: center;
+    }
+    .nav-links li {
+        margin:15px 0;        
+    }
+    .hamburguer {
+        display:flex;
+    }
+    .nav-links.show {
+        display: flex;
+        background-color: black;
+    }
+}
+
 .uno{
     top:0vw;
     font-size: 1px;
@@ -81,40 +148,7 @@ a:link,a:visited,a:hover{
   a:active{
     color:rgb(234, 207, 4);
   }
-.tabla_2 {
-    width: 100vw;
-    font-family: "Roboto";
-    display: flex;
-    font-size:1.5rem;
-    height:7vw;
-    background-color:rgb(0, 0, 0);
-    color: rgb(243, 235, 235);
-    position:absolute;
-    z-index: 2;
-    top:11vw;
-    left: 0vw;
-    flex-direction: column;
-}
 
-.tabla_2 > div {
-    padding:auto;
-    
-}
-
-.option-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: none;
-    
-    
-}
-
-.option-container > div {
-    padding-right:4vw;
-    margin-right: unset;
-    
-}
 .espacio{
     width: 100vw;
     font-family: "Roboto";
