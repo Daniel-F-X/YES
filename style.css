@@ -98,13 +98,13 @@ h5{
     font-size: 1px;
 }
 h1{
-    color: rgb(242, 242, 244);
+    color: rgb(3, 3, 3);
     position: absolute;
-    top:26vw;
-    left: 15vw;
+    top:70vw;
+    left: 20vw;
     z-index: 2;
     font-size:clamp(1.8rem, 10vw, 7rem);
-    transition: .5s ease;
+    transition: 5s ease;
 }
 h1:hover{
     transform: scale(1.2);
@@ -112,10 +112,13 @@ h1:hover{
 h2{
     color:  rgb(233, 229, 13);
     position:absolute;
-    top:20vw;
+    top:45vw;
     z-index:2;
     font-size:10vw;
-    left: 5vw; 
+    left: 5vw;
+    width: 100vw;
+
+
 }
 .container {
     width: 100vw;
