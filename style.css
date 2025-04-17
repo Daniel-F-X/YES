@@ -1,7 +1,10 @@
 ::-webkit-scrollbar{
     scrollbar-width:none;
 }
-
+*{
+  margin: 0;
+  padding: 0;  
+}
 body{
     margin:0vw;
     padding:0vw;
