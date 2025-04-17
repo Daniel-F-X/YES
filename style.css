@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+/*body{
     margin:0vw;
     padding:0vw;
     width:100vw;
@@ -15,14 +15,14 @@ body{
     font-family: 'Roboto';
 
     
-}
-header{
-    background-color: rgba(7, 7, 7, 0.589);
+}*/
+header {
     color:white;
     padding: 10px 20px;
     position: relative;
-    z-index:3;
     transition: 0.8s;
+    background-color: rgb(0, 0, 0);
+    z-index: 4;
     
     
 }
@@ -31,10 +31,12 @@ nav{
     justify-content: space-around;
     align-items: center;
     
+    
 }
 h5{
     font-size:4vw;
     font-weight: bold;
+    
     
 
 }
@@ -63,6 +65,7 @@ h5{
     background-color: white;
     margin: 4px 0;
     transition: 0.3s;
+    z-index: 4;
 }
 @media (max-width:768px) {
     nav {
@@ -108,7 +111,7 @@ h1:hover{
     transform: scale(1.2);
 }
 h2{
-    color: white;
+    color:  rgb(233, 229, 13);
     position:absolute;
     top:20vw;
     z-index:2;
@@ -119,15 +122,20 @@ h2{
     width: 100vw;
     max-width: 100vw;
     min-width: 320px;
+    top:1vw;
 }
 .montaña{
-    width:100%;    
+    width:100%; 
+    top:1vw;
+    z-index: 1;   
 }
 .montañafria{
     width:100vw; 
     position:absolute;
     left:0vw;
     right: 0vw;
+    z-index: 1;
+    top:11
 }
 
 
@@ -139,23 +147,6 @@ h2{
     width:9vw;
     left: 47vw;
 }
-.tabla_3{
-    width:100vw;
-    font-size:3vw;
-    height:10vw;
-    background-color:white;
-    position:fixed;
-    z-index:3;
-    top:0vw;
-    left: 0vw;
-}
-a:link,a:visited,a:hover{
-    color: rgb(250, 249, 249);
-  } 
-  a:active{
-    color:rgb(234, 207, 4);
-  }
-
 .espacio{
     width: 100vw;
     font-family: "Roboto";
@@ -168,16 +159,11 @@ a:link,a:visited,a:hover{
 }
 
 .englobamontaña{
-    position:absolute;
-    top:171vw;
+    position: absolute;
     left:0vw;
     
 }
-.englobalicras{
-     position:absolute;
-     top:90vw;
-     width: 100vw;
- }
+
 .englobaropatermica{
     position: absolute;
     top:110vw;
@@ -188,11 +174,16 @@ a:link,a:visited,a:hover{
     top:130vw;
     width: 100vw;
 }
-
+@media (min-width:320px) {
+.englobalicras{
+    position:absolute;
+    top:200vw;
+    width: 100vw;
+}
 h3{
     color: rgb(233, 229, 13);
     position: absolute;
-    top:160vw;
+    top:10vw;
     left: 10vw;
     z-index: 2;
     font-size:10vw; 
@@ -201,7 +192,7 @@ h3{
     position: absolute;
      z-index: 2;
      line-height:2em;
-     top:200vw;
+     top:45vw;
      color:rgb(12, 12, 12);
      width: 90vw;
      font-size:1.5rem;
@@ -211,12 +202,13 @@ h3{
 #Licras{
     position:absolute;
     z-index: 2;
-    top:165vw;
+    top:vw;
     width:30vw;
     left:55vw;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     
+}
 }
 h4{
     color: rgb(233, 229, 13);
