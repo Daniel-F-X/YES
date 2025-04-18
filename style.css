@@ -133,6 +133,21 @@ h2{
     position:absolute;  
     
 }
+#Texthome{
+    position: absolute;
+    line-height:2em;
+    top:160vw;
+    width: 80vw;
+    font-size:1.2rem;
+    left:10vw;
+    padding:4vw;
+    text-align: center;
+    z-index: 3;
+    color: aliceblue;
+    background-color: rgba(172, 165, 165, 0.158);
+    border-radius: 10vw;
+    
+}
 
 .montañafria{
     width:100vw; 
