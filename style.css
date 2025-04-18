@@ -185,7 +185,7 @@ h2{
     border-radius: 7vw;*/
 
 
-@media (min-width:410px) {
+@media (min-width:400px) {
     .englobamochila{
         background-color:rgba(253, 233, 143, 0.616);
         width: 90vw;
@@ -229,7 +229,7 @@ h2{
         position:absolute;
         top:20vw;
         z-index: 2;
-        width: 90vw;
+        width: 9vw;
         left:0vw;
         aspect-ratio: 1 / 1;
         object-fit: cover;
