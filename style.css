@@ -185,7 +185,7 @@ h2{
     border-radius: 7vw;*/
 
 
-@media (min-width:380px) {
+@media (min-width:390px) {
     .englobamochila{
         background-color:rgba(253, 233, 143, 0.616);
         width: 90vw;
@@ -321,7 +321,7 @@ h2{
 }
 
 
-@media (min-width:320px) {
+@media (min-width:390px) {
 .englobalicras{
     background-color:white;
     width: 90vw;
@@ -376,7 +376,7 @@ h3{
 }
 }
 
-@media (min-width:320px) {
+@media (min-width:390px) {
     .englobaropatermica{
         background-color:white;
         width: 90vw;
@@ -462,7 +462,7 @@ h4{
      left:4vw;
      
 } */
-@media (min-width:320px) {
+@media (min-width:390px) {
     .englobacapaexterna{
     
         background-color:white;
@@ -569,7 +569,7 @@ h4{
     
           
 }*/
-@media (min-width:320px) {
+@media (min-width:390px) {
 .englobacalzado{
     
     
@@ -685,7 +685,7 @@ h4{
     font-size: 1.5rem;
     left:4vw;
 }*/
-@media (min-width:320px) {
+@media (min-width:390px) {
     .englobaaccesorios{
     
         background-color:white;
