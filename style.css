@@ -150,18 +150,21 @@ h2{
     border-radius: 10vw;
     
 }
-
+.container2{
+    width: 20vw;
+    max-width:5vw;
+    min-width: 100vw;
+    top:1vw;
+}
 .montañafria{
     width:100vw; 
-    position:absolute;
-    left:0vw;
-    right: 0vw;
-    z-index: 1;
-    top:11
+    top:1vw;
+    z-index: 1; 
+    position:absolute;  
     
     
 }
-.container2{
+.container3{
     width: 20vw;
     max-width:5vw;
     min-width: 100vw;
@@ -312,12 +315,6 @@ h2{
     position: absolute;
     top:156vw;
     left: 0vw;
-}
-
-.englobamontaña{
-    position: absolute;
-    left:0vw;
-    
 }
 
 
