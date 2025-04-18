@@ -185,7 +185,7 @@ h2{
     border-radius: 7vw;*/
 
 
-@media (min-width:500px) {
+@media (min-width:450px) {
     .englobamochila{
         background-color:rgba(253, 233, 143, 0.616);
         width: 90vw;
@@ -239,7 +239,7 @@ h2{
         
     }
     }
-    @media (min-width:390px) {
+    @media (min-width:450px) {
         .englobacasco{
             background-color:rgba(253, 233, 143, 0.616);
             width: 90vw;
