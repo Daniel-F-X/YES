@@ -18,10 +18,11 @@ body{
 header {
     color:white;
     padding: 10px 20px;
-    position: relative;
+    position: fixed;
     transition: 0.8s;
     background-color: rgb(0, 0, 0);
     z-index: 4;
+    width: 100vw;
     
     
 }
@@ -371,7 +372,7 @@ h4{
         top:20vw;
         z-index: 2;
         width:30vw;
-        left:30vw;
+        left:10vw;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 150px;
@@ -382,7 +383,7 @@ h4{
             top:20vw;
             z-index: 2;
             width:30vw;
-            left:30vw;
+            left:50vw;
             aspect-ratio: 1 / 1;
             object-fit: cover;
             border-radius: 150px;
@@ -482,7 +483,7 @@ h4{
         top:20vw;
         z-index: 2;
         width:30vw;
-        left:30vw;
+        left:10vw;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 150px;
@@ -494,7 +495,7 @@ h4{
             top:20vw;
             z-index: 2;
             width:30vw;
-            left:30vw;
+            left:50vw;
             aspect-ratio: 1 / 1;
             object-fit: cover;
             border-radius: 150px;
@@ -556,14 +557,15 @@ h4{
         width: 90vw;
         max-width: 100vw;
         min-width: 60px;
-        height: 60vw;
-        max-height: 100vw;
-        min-height: 600px;
+        height: 80vw;
+        max-height: 1vw;
+        min-height: 900px;
         position:relative;
         top:200vw;
         left: 5vw;
         border-radius: 150px;
         box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+    
     
         
     }
@@ -572,7 +574,7 @@ h4{
         color: rgb(233, 229, 13);
         position: absolute;
         top:5vw;
-        left: 26vw;
+        left: 20vw;
         z-index: 2;
         font-size:10vw; 
         
@@ -580,23 +582,22 @@ h4{
     #descaccesorios{
         
         position: absolute;
-         line-height:2em;
-         top:50vw;
-         color:rgb(12, 12, 12);
-         width: 80vw;
-         font-size:1.2rem;
-         left:4vw;
-         padding:4vw;
-         text-align: center;
-         
+        line-height:2em;
+        top:40vw;
+        color:rgb(12, 12, 12);
+        width: 80vw;
+        font-size:1.2rem;
+        left:4vw;
+        padding:4vw;
+        text-align: center;
          
     }
     #fotolentes{
         position:absolute;
         top:20vw;
         z-index: 2;
-        width:30vw;
-        left:30vw;
+        width:20vw;
+        left:35vw;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 150px;
@@ -606,8 +607,8 @@ h4{
             position:absolute;
             top:20vw;
             z-index: 2;
-            width:30vw;
-            left:30vw;
+            width:20vw;
+            left:65vw;
             aspect-ratio: 1 / 1;
             object-fit: cover;
             border-radius: 150px;
@@ -619,8 +620,8 @@ h4{
         position:absolute;
         top:20vw;
         z-index: 2;
-        width:30vw;
-        left:30vw;
+        width:20vw;
+        left:5vw;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 150px;
