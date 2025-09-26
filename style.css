@@ -102,7 +102,7 @@ h1{
     color: rgb(255, 255, 255);
     position: absolute;
     top:65vw;
-    left: 20vw;
+    left: 10vw;
     z-index: 2;
     font-size:clamp(1.8rem, 1vw, 4rem);
     transition: 5s ease;
