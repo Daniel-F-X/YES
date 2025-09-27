@@ -480,3 +480,6 @@ h5{
     display: flex;
   }
 }
+.nav-links li {
+  position: relative;
+}
