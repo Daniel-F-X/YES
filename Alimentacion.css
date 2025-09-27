@@ -108,9 +108,9 @@ h5{
 }
 h1{
     top:50vw;
-    color:rgb(8, 31, 113);
+    color:rgb(245, 246, 248);
     position: absolute;
-    z-index: 4;
+    z-index: 2;
     font-size: 14vw;
 }
 @media (min-width:390px) {
