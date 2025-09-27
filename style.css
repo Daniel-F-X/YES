@@ -789,11 +789,7 @@ h4{
 }
 
 /* 🔹 Estilos menú hamburguesa */
-.hamburguer {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
+
 
 .bar {
   height: 3px;
@@ -821,9 +817,7 @@ h4{
     display: flex;
   }
 
-  .hamburguer {
-    display: flex;
-  }
+  
 
   /* Submenú dentro del móvil */
   .submenu {

@@ -458,11 +458,7 @@ h5{
 }
 
 /* 🔹 Estilos menú hamburguesa */
-.hamburguer {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
+
 
 .bar {
   height: 3px;
@@ -490,9 +486,7 @@ h5{
     display: flex;
   }
 
-  .hamburguer {
-    display: flex;
-  }
+ 
 
   /* Submenú dentro del móvil */
   .submenu {
