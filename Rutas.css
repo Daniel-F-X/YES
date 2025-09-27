@@ -113,5 +113,53 @@ h5{
     
 }
 
+/* 🔽 Submenú base (oculto por defecto) */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;         /* se ubica debajo del item padre */
+  left: 0;
+  background-color: rgb(0, 0, 0); /* igual al menú principal */
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 180px;  /* ancho mínimo para que no se vea muy angosto */
+  z-index: 10;
+}
+
+/* Estilo de enlaces en el submenú */
+.submenu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;      /* igual que el menú principal */
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.submenu li a:hover {
+  color: yellow;     /* mismo hover del menú principal */
+}
+
+/* 🔽 Mostrar submenú en escritorio */
+.nav-links li:hover .submenu {
+  display: block;
+}
+
+/* 🔽 Responsive: submenú en móviles */
+@media (max-width:768px) {
+  .submenu {
+    position: static;    /* se acomoda dentro del menú hamburguesa */
+    background: rgba(0, 0, 0, 0.6);
+    display: none;       /* oculto hasta click */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Mostrar submenú cuando el padre esté activo */
+  .nav-links li.active .submenu {
+    display: flex;
+  }
+}
 
 
