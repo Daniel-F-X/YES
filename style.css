@@ -814,3 +814,14 @@ h4{
 .nav-links li {
   position: relative;
 }
+h2{
+    top: 30vw;
+    font-size: 18vw;
+    color:white;
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    left: 0vw;
+    
+
+}
