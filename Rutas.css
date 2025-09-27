@@ -8,7 +8,8 @@
   }
 
 body{
-    margin:0;
+    top:1vw;
+    margin:0px;
     padding:0;
     width:100vw;
     overflow-x: hidden;
@@ -45,6 +46,9 @@ h5{
     list-style: none;
     display: flex;
     gap: 15px;
+}
+.nav-links li {
+  position: relative;
 }
 .nav-links a {
     text-decoration: none;
@@ -94,40 +98,41 @@ h5{
         background-color: rgba(7, 7, 7, 0.589);
     }
 }
-.container3{
+.container2{
     width: 20vw;
     max-width:5vw;
     min-width: 100vw;
-    top:1vw;
+    top:200vw;
 }
-#Grigri{
+.montañafria{
     width:100vw; 
-    top:1vw;
+    top:200vw;
     z-index: 1; 
     position:absolute;  
-}
-.nav-links li {
-  position: relative;
+    
+    
 }
 
-/* Submenú oculto por defecto */
+
+
+/* 🔹 Submenú oculto */
 .submenu {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background: #fff;
+  background: rgb(0, 0, 0);
   list-style: none;
   padding: 10px 0;
   margin: 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
 }
 
 .submenu li a {
   display: block;
   padding: 8px 15px;
   text-decoration: none;
-  color: #333;
+  color:white;
   white-space: nowrap;
 }
 
@@ -136,7 +141,7 @@ h5{
   display: block;
 }
 
-/* Estilos menú hamburguesa */
+/* 🔹 Estilos menú hamburguesa */
 .hamburguer {
   display: none;
   flex-direction: column;
@@ -151,13 +156,13 @@ h5{
   border-radius: 2px;
 }
 
-/* Responsive */
+/* 🔹 Responsive */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
     top: 60px;
     right: 0;
-    background: #fff;
+    background: rgb(0, 0, 0);
     flex-direction: column;
     width: 200px;
     display: none;
@@ -173,7 +178,7 @@ h5{
     display: flex;
   }
 
-  /* Submenú móvil */
+  /* Submenú dentro del móvil */
   .submenu {
     position: static;
     box-shadow: none;

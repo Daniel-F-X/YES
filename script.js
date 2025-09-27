@@ -9,6 +9,6 @@ const dropdown = document.querySelector('.dropdown');
 
 dropdown.addEventListener('click', () => {
   if (window.innerWidth <= 768) {
-    dropdown.classList.toggle('show');
+    dropdown.classList.toggle('active');
   }
 });
